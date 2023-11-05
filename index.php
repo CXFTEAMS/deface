@@ -1,85 +1,65 @@
-<!-- Generator by NathanPrinsley -->
-<!-- Tools : https://script-deface-generator.prinsh.com -->
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Hacked By CXFTEAMS</title>
-    <meta charset="UTF-8" />
-    <meta name="author" content="MR.KUCING" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
-    <meta property="og:title" content="Hacked By MR.KUCING - CRIMINAL CYBER" />
-    <meta name="keywords" content="MR.KUCING - CRIMINAL CYBER" />
-    <meta property="og:image" content="https://cdn.prinsh.com/data-1/images/NathanPrinsley-AnonymousLogo.png" />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.prinsh.com/NathanPrinsley-textstyle/nprinsh-stext.css" />
-    <style>
-        body {
-            background: #222222;
-            font-family: Calibri;
-            margin-top: 35px;
-        }
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CXFTEAMS - criminal cyber</title>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-        h1,
-        h2 {
-            margin-top: .3em;
-            margin-bottom: .3em;
-        }
+* {
+  box-sizing: border-box;
+}
 
-        h1.nprinsleyy {
-            color: #00FFFF;
-        }
+.bg-image {
+  /* The image used */
+  background-image: url("https://i.ibb.co/f4LQPWg/cxfteams.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-        h2 {
-            color: #dbd9d9;
-        }
-
-        p.message_prinsley {
-            color: #dbd9d9;
-            margin-top: .25em;
-            margin-bottom: .25em;
-            font-size: 16px;
-            font-weight: unset;
-        }
-
-        .hubungi_prinsh {
-            color: #00eb00;
-            text-decoration: none;
-        }
-
-        .hubungi_prinsh:hover {
-            color: red
-        }
-
-        .othermes_nprinsh {
-            color: #dbd9d9;
-            font-size: 16px;
-        }
-
-        marquee.foonathanPrinsley {
-            display: none;
-            position: fixed;
-            width: 100%;
-            bottom: 0px;
-            font-family: Tahoma;
-            height: 20px;
-            color: white;
-            left: 0px;
-            border-top: 2px solid darkred;
-            padding: 5px;
-            background-color: #000
-        }
-    </style>
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+</style>
 </head>
-
 <body>
-    <center />
-    <h1 class="nprinsleyy nprinsley-text-rainbowan" style="font-size:50px;">CXFTEAMS</h1>
-    <h2 style="font-size:24px;" class="nathan-prinsley_none">CRIMINAL CYBER</h2>
-    <h2 style="font-size:24px;" class="nathan-prinsley_none">Yang Kuat Kan Bertahan, Yang Lemah Berantakan.</h2>
-    </center>
-</body>
 
-</html><!-- Generator by Nathan Prinsley - https://script-deface-generator.prinsh.com -->
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <img src="https://i.ibb.co/f4LQPWg/cxfteams.jpg" style="height:250px;border-radius:10px;"/>
+  <h1 style="margin:0px;color:#ff0000;">CXFTEAMS</h1>
+  <h5 style="margin:0px;">CRIMINAL CYBER</h5>
+  <p>"The strong survive, the weak fall apart."</p>
+</div>
+
+</body>
+</html>

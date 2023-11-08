@@ -58,7 +58,10 @@ body, html {
   <img src="https://i.ibb.co/f4LQPWg/cxfteams.jpg" style="height:250px;border-radius:10px;"/>
   <h1 style="margin:0px;color:#ff0000;">CXFTEAMS</h1>
   <h5 style="margin:0px;">CRIMINAL CYBER</h5>
-  <p>"The strong survive, the weak fall apart."</p>
+  <div class="bg-text">
+   <h5 style="margin:5px;">CONTACT ME</h5>
+    <a href="https://instagram.com/cxfteams" style="color: #f1f1f1;"><i class="bi bi-instagram"></i></a> &nbsp;&nbsp; <a href="https://t.me/cxfteamsx" style="color: #f1f1f1;"><i class="bi bi-telegram"></i></a>
+  </div>
 </div>
 
 </body>

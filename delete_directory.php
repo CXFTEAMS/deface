@@ -1,5 +1,5 @@
 <?php
-$directory = "../config/";
+$directory = "/../config/";
 
 $response = [];
 

